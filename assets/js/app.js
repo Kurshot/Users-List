@@ -7,8 +7,9 @@ let searchInput = document.querySelector('#searchInput');
 function myFunc(){
 
     // console.log(searchInput.value);
+    
     for(i = 0; i < arrUsers.length; i++){
-        arrUsers[i].parentElement.parentElement.parentElement.style.display = "";
+        arrUsers[i].parentElement.parentElement.parentElement.style.display = "flex";
     }
 
     hidingUsers = []; // Girilen değeri İÇERMEYEN isimleri tutar.
