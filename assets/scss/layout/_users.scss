@@ -1,0 +1,65 @@
+.users{
+    margin-top: 100px;
+    padding: 50px 60px;
+    border-radius: 20px;
+    background-color: $usersbg;
+    &__heading{
+        font-size: 29px;
+        font-weight:bold;
+
+    }
+    &__topBar{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 26px;
+    }
+    &__search{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 10%;
+        border: 1px solid $bordercolor;
+        border-radius: 4px;
+    }
+    &__roles{
+        font-weight: 400;
+        display: flex;
+    }
+    &__userCards{
+        margin-top: 50px;
+    }
+    &__user{
+        background-color: $cardbg;
+        padding: 25px 25px;
+        margin-left: 8px;
+        margin-bottom: 8px;
+        display: flex;
+        border-radius: 10px;
+    }
+    &__userContent{
+        margin-left: 15px;
+        padding-top: 15px;
+    }
+    &__userName{
+        font-weight: 600;
+        font-size: 22px;
+    }
+    &__userCity{
+        font-weight: 500;
+    }
+    &__userImg > img{
+        border-radius: 50%;
+    }
+    &__userTags > span{
+        color: $spantextcolor;
+        border: 1px solid $bordercolor;
+        border-radius: 12px;
+        background-color: white;
+        padding: 1px 8px;
+        display: inline-block;
+        margin-top: 5px;
+        margin-right: 1.5px;
+        
+        
+    }
+}

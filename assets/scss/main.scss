@@ -1,0 +1,11 @@
+@import 'variables/colors';
+@import 'layout/users';
+@import 'components/icons';
+@import 'components/input';
+@import 'components/buttons';
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: $bodybg;
+}

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/scss/main.css">
+    <title>Users List</title>
+</head>
+<body>
+    <div class="container">
+        <div class="users">
+
+            <div>
+                <p class="users__heading">Users</p>
+            </div>
+            
+            <div class="users__topBar">
+
+                <div class="users__search">
+                    <i class="searchIcon fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search users" id="searchInput">
+                </div>
+    
+                <div class="users__roles">
+                    <button>Reputation</button>
+                    <button class="selectedBtn">New users</button>
+                    <button>Voters</button>
+                    <button>Editors</button>
+                    <button>Moderators</button>
+                </div>
+
+            </div>
+
+            <div class="users__userCards">
+
+                <div class="container">
+                    <!-- ROW 1 -->
+                    <div class="row">
+                        <div class="col users__user">
+
+                            <div class="users__userImg">
+                                <img src="assets/images/user-2.jpg" alt="" style="height: 100px;">
+        
+                            </div>
+        
+                            <div class="users__userContent">
+        
+                                <div class="users__userDesc">
+                                    <p class="users__userName">Lelah Nichols</p>
+                                    <p class="users__userCity">Troy, MI</p>
+                                </div>
+        
+                                <div class="users__userTags">
+                                    <span>clothes</span>
+                                    <span>stem</span>
+                                </div>
+        
+                            </div>
+        
+                        </div>
+
+                        <div class="col users__user">
+
+                            <div class="users__userImg">
+                                <img src="assets/images/user-1.jpg" alt="" style="height: 100px;">
+        
+                            </div>
+                            
+                            <div class="users__userContent">
+        
+                                <div class="users__userDesc">
+                                    <p class="users__userName">Jesus Weiss</p>
+                                    <p class="users__userCity">Fort Worth, TX</p>
+        
+                                </div>
+        
+                                <div class="users__userTags">
+                                    <span>headset</span>
+                                    <span>gadget</span>
+                                    <span>speed</span>
+                                    <span>winter</span>
+                                </div>
+        
+                            </div>
+                            
+                        </div>
+
+                        <div class="col users__user">
+                    
+                            <div class="users__userImg">
+                                <img src="assets/images/user-3.jpg" alt="" style="height: 100px;">
+        
+                            </div>
+                            
+                            <div class="users__userContent">
+        
+                                <div class="users__userDesc">
+                                    <p class="users__userName">Annie Rice</p>
+                                    <p class="users__userCity">Austin, TX</p>
+        
+                                </div>
+        
+                                <div class="users__userTags">
+                                    <span>road</span>
+                                    <span>mountain</span>
+                                    <span>trip</span>
+                                    <span>earth</span>
+                                    <span>nature</span>
+                                </div>
+        
+                            </div>
+                            
+                        </div>
+
+                    </div>
+
+                    <!-- ROW 2 -->
+                    <div class="row">
+                        <div class="col users__user">
+
+                            <div class="users__userImg">
+                                <img src="assets/images/user-4.jpg" alt="" style="height: 100px;">
+        
+                            </div>
+                            
+                            <div class="users__userContent">
+        
+                                <div class="users__userDesc">
+                                    <p class="users__userName">Robert Brower</p>
+                                    <p class="users__userCity">Cincinnati, OH</p>
+                                </div>
+        
+                                <div class="users__userTags">
+                                    <span>maintenance</span>
+                                    <span>gears</span>
+                                    <span>frames</span>
+                                    <span>repair</span>
+                                </div>
+        
+                            </div>
+                            
+                        </div>
+
+                        <div class="col users__user">
+
+                            <div class="users__userImg">
+                                <img src="assets/images/user-6.jpg" alt="" style="height: 100px;">
+        
+                            </div>
+                            
+                            <div class="users__userContent">
+        
+                                <div class="users__userDesc">
+                                    <p class="users__userName">Amy Campbell</p>
+                                    <p class="users__userCity">Warrior, AL</p>
+        
+                                </div>
+        
+                                <div class="users__userTags">
+                                    <span>music</span>
+                                    <span>disks</span>
+                                </div>
+        
+                            </div>
+                            
+                        </div>
+
+                        <div class="col users__user">
+
+                            <div class="users__userImg">
+                                <img src="assets/images/user-5.jpg" alt="" style="height: 100px;">
+        
+                            </div>
+                            
+                            <div class="users__userContent">
+        
+                                <div class="users__userDesc">
+                                    <p class="users__userName">Anthony S. Morin</p>
+                                    <p class="users__userCity">Lyndhurst, NJ</p>
+        
+                                </div>
+        
+                                <div class="users__userTags">
+                                    <span>vintage</span>
+                                    <span>electric</span>
+        
+                                </div>
+        
+                            </div>
+                            
+                        </div>
+
+
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    
+    <script src="https://kit.fontawesome.com/c24911ab6e.js" crossorigin="anonymous"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

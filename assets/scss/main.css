@@ -1,0 +1,117 @@
+.users {
+  margin-top: 100px;
+  padding: 50px 60px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+}
+
+.users__heading {
+  font-size: 29px;
+  font-weight: bold;
+}
+
+.users__topBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 26px;
+}
+
+.users__search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 10%;
+  border: 1px solid #BFC8E5;
+  border-radius: 4px;
+}
+
+.users__roles {
+  font-weight: 400;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.users__userCards {
+  margin-top: 50px;
+}
+
+.users__user {
+  background-color: #FBFCFF;
+  padding: 25px 25px;
+  margin-left: 8px;
+  margin-bottom: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 10px;
+}
+
+.users__userContent {
+  margin-left: 15px;
+  padding-top: 15px;
+}
+
+.users__userName {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.users__userCity {
+  font-weight: 500;
+}
+
+.users__userImg > img {
+  border-radius: 50%;
+}
+
+.users__userTags > span {
+  color: #6A83DA;
+  border: 1px solid #BFC8E5;
+  border-radius: 12px;
+  background-color: white;
+  padding: 1px 8px;
+  display: inline-block;
+  margin-top: 5px;
+  margin-right: 1.5px;
+}
+
+.searchIcon {
+  color: #23293F;
+  margin-left: 8px;
+  margin-right: 4px;
+}
+
+input {
+  height: 45px;
+  border: none;
+  outline: none;
+}
+
+button {
+  border: none;
+  background-color: white;
+  margin-left: 3px;
+  border-radius: 8px;
+}
+
+.selectedBtn {
+  background-color: #849FFF;
+  color: white;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #E6EAF8;
+}
+/*# sourceMappingURL=main.css.map */
